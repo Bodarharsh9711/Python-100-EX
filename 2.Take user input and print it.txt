@@ -1,0 +1,5 @@
+2.Take user input and print it 
+
+name = input("Enter your name: ")
+print(f"Hello, {name}!")
+ 
