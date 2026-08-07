@@ -1,0 +1,7 @@
+6. Swap two numbers
+no1 = int(input("Enter your no1: "))
+no2 = int(input("Enter your no2: "))
+
+no1, no2 = no2, no1
+
+print(no1, no2)
