@@ -1,0 +1,5 @@
+5. Find area of circle
+rad = int(input("Enter your radious: "))
+a = 3.14*rad*rad
+print(a)
+	
