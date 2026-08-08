@@ -1,0 +1,7 @@
+7. Convert Celsius to Fahrenheit
+# fahrenheit = (celsius * 9/5) + 32
+cel = float(input("Enter your celcious: "))
+fahrenheit = (cel * 9/5) + 32
+
+print(fahrenheit)
+	
