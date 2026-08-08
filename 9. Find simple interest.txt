@@ -1,0 +1,8 @@
+9. Find simple interest
+principle = float(input("Enter your principle: "))
+rate = float(input("Enter your rate: "))
+time = float(input("Enter your time: "))
+
+si = (principle*rate*time)/100
+
+print(si)
