@@ -1,0 +1,9 @@
+12. Check positive, negative, or zero
+a = int(input("Enter your number: "))
+
+if a>0:
+  print("given number is positive")
+elif a<0:
+  print("given number is negative")
+else:
+  print("this is may be 0")
