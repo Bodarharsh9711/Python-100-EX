@@ -1,4 +1,7 @@
 14. Find largest of three numbers
+
+# Method-1:
+
 no1 = float(input("Enter your number: "))
 no2 = float(input("Enter your number: "))
 no3 = float(input("Enter your number: "))
@@ -9,6 +12,10 @@ elif no2<no1 and no3<no1:
   print("no-1 is big!")
 else:
   print("no-3 is big")
+
+
+# Method-2: 
+
 no1 = float(input("Enter your number: "))
 no2 = float(input("Enter your number: "))
 no3 = float(input("Enter your number: "))
