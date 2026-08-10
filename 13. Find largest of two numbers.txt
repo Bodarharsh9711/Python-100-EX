@@ -1,0 +1,8 @@
+13. Find largest of two numbers
+no1 = float(input("Enter your number: "))
+no2 = float(input("Enter your number: "))
+
+if no1<no2:
+  print("no-2 is big!")
+else:
+  print("no-1 is big!")
