@@ -1,0 +1,12 @@
+15. Check leap year 
+
+import calendar
+
+year = int(input("enter any year like(2025): "))
+
+if calendar.isleap(year):
+  print("this is leap year!")
+else:
+  print("this is not leap year!")
+
+print(year,"🤷")
