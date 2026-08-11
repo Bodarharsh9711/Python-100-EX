@@ -1,0 +1,11 @@
+16. Check voting eligibility
+age = int(input("Enter your age: "))
+
+if age<18:
+  print("You are not eligible! ")
+elif age<=99:
+  print("You are eligible! ")
+elif age>100:
+  print("you are full eligible!")
+else:
+  print("aavjo")
