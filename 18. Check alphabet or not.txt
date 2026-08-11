@@ -1,0 +1,7 @@
+18. Check alphabet or not
+ch = input("Enter no.: ")
+
+if 'a' <= ch <= 'z' or 'A' <=ch<= 'Z':
+  print("alphabet")
+else:
+  print("nathi nhai! ")
