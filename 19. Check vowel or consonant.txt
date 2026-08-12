@@ -1,0 +1,10 @@
+19. Check vowel or consonant
+text = "Hello 123"
+
+for char in text:
+    if char.isalpha():
+        if char.lower() in 'aeiou':
+            print(f"{char} -> Vowel")
+        else:
+            print(f"{char} -> Consonant")
+ 
