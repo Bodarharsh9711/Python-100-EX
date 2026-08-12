@@ -4,7 +4,7 @@ text = "Hello 123"
 for char in text:
     if char.isalpha():
         if char.lower() in 'aeiou':
-            print(f"{char} -> Vowel")
+            print(f"{char} -> Vowel")  # f-string
         else:
             print(f"{char} -> Consonant")
  
