@@ -1,7 +1,0 @@
-25.Reverse a Number
-
-num = 123
-
-reversed_num = int(str(num)[::-1])
-
-print(reversed_num)
