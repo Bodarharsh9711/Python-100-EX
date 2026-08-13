@@ -1,0 +1,7 @@
+24. Count Digits in an Integer
+
+num = 12345
+
+digit_count = len(str(abs(num)))
+
+print(digit_count)
