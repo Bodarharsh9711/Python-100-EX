@@ -1,0 +1,18 @@
+27. Find given number is Palindrom or not?
+
+def is_palin(num):
+    return str(num) == str(num)[::-1]
+print(is_palin(121)) 
+
+
+         # OR
+
+# BY USER
+
+num = int(input("Enter the number: "))
+def is_palin(num):
+    return str(num) == str(num)[::-1]
+print(str(num)[::-1])
+print(is_palin(num))
+
+ 
