@@ -1,5 +1,6 @@
 17. Check number divisible by 5 and 11
- 
+# this is the simplest way 
+
 no = int(input("Enter your no: "))
 
 if no%5==0 and no%11==0:
