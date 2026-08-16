@@ -1,4 +1,5 @@
 9. Find simple interest
+
 // take value from user!
 principle = float(input("Enter your principle: "))
 rate = float(input("Enter your rate: "))
