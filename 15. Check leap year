@@ -1,11 +1,12 @@
 15. Check leap year 
 
-import calendar
-year = int(input("enter any year like(2025): "))
+import calendar # no any mathakut and direct import library!
+year = int(input("Enter any year like(2027): "))
 
-if calendar.isleap(year):
-  print("this is leap year!")
+if calendar.isleap(year): # isleap is clarify(the year) using library.
+  print("leap year!")
 else:
-  print("this is not leap year!")
+  print("not leap year!")
 
+# print(year)
 print(year,"🤷")
