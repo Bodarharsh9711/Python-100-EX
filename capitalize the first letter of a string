@@ -1,0 +1,6 @@
+-> capitalize the first letter of a string
+
+text = "this is PYTHON" or "this is python lnaguage"
+
+output = text.capitalize()  # using directly capitalize function.
+print(output)
