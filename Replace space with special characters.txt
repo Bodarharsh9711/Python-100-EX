@@ -1,0 +1,7 @@
+-> Replace space with special characters
+
+text = "this is python langauge"
+result = text.replace(" ","-")
+result1 = text.replace(" ","_") # @,#,$,%,^,&,*...
+
+print(result1)
