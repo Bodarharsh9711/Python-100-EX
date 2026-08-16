@@ -1,0 +1,9 @@
+-> Find the length of a string without len()
+
+s = "python"
+print(len(s))
+
+	OR
+
+s = input("Enter any string:- ")
+print(len(s))
