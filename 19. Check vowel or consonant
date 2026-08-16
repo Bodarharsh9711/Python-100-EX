@@ -2,7 +2,8 @@
 
 text = "Hello 123"
 for char in text:
-    if char.isalpha():
+    if char.isalpha(): # chech the given character is alphabatic or not!
+
         if char.lower() in 'aeiou':
             print(f"{char} -> Vowel")  # f-string
         else:
