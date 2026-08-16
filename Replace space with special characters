@@ -4,4 +4,5 @@ text = "this is python langauge"
 result = text.replace(" ","-")
 result1 = text.replace(" ","_") #  you can write: @,#,$,%,^,&,*...
 
+print(result)
 print(result1)
