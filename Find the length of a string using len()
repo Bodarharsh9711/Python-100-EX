@@ -4,7 +4,7 @@ s = "python"
 print(len(s))
 
 	OR
-
+ 
 # by taking from User
 s = input("Enter any string:- ")
 print(len(s))
