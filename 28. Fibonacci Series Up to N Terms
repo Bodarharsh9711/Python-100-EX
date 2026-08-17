@@ -1,7 +1,7 @@
 28. Fibonacci Series Up to N Terms
 
 def fibo(n):
-    a, b = 0, 1
+    a, b = 0, 1 # a is 0 and b is 1
     for i in range(n):
         print(a, end=" ")
         a,b = b, a+b         # work: a is same as but when go to b than both sum because the series is 0 0 1 1 2 3..... 
