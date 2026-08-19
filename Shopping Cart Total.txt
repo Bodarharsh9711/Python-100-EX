@@ -1,0 +1,22 @@
+-> Shopping Cart Total
+
+class Item:
+    def __init__(self, name, price):
+        self.name, self.price = name, price
+
+
+class ShoppingCart:
+    def __init__(self):
+        self.items = []
+
+    def add_item(self, item):
+        self.items.append(item)
+
+    def get_total(self):
+        return sum(i.price for i in self.items)
+
+
+cart = ShoppingCart()
+cart.add_item(Item("Book", 12.99))
+cart.add_item(Item("Pen", 1.50))
+print(f"Total price: ${cart.get_total():.2f}")
