@@ -1,0 +1,15 @@
+-> The Car Class (Instantiation & Attributes)
+
+class Car:
+	def __init__(self, brand, model):
+        
+	  self.brand = brand
+        
+	  self.model = model
+
+
+my_car = Car("Toyota", "Maruti")    # add the values...
+
+print(my_car.brand)  
+
+print(my_car.model) 
