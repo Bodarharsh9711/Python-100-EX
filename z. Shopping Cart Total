@@ -1,7 +1,7 @@
 -> Shopping Cart Total
 
 class Item:
-    def __init__(self, name, price):
+    def __init__(self, name, price):     // pending
         self.name, self.price = name, price
 
 
