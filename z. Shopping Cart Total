@@ -1,7 +1,7 @@
 -> Shopping Cart Total
 
 class Item:
-    def __init__(self, name, price):     // pending
+    def __init__(self, name, price):     // pending init function ... self...
         self.name, self.price = name, price
 
 
@@ -16,7 +16,7 @@ class ShoppingCart:
         return sum(i.price for i in self.items)
 
 
-cart = ShoppingCart()
+cart = ShoppingCart()  // it's time to add item
 cart.add_item(Item("Book", 12.99))
 cart.add_item(Item("Pen", 1.50))
 print(f"Total price: ${cart.get_total():.2f}")
