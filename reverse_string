@@ -1,0 +1,4 @@
+def reverse_string(s: str) -> str:
+    return s[::-1] # main logic
+
+print("1.ReverseString:",reverse_string("interview")) # it make string in reverse nothing else.
