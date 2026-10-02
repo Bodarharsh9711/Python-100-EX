@@ -1,0 +1,21 @@
+// 41. Write a C# program to accept a number from the user and throw an exception if it is not an even number.
+using System;
+
+class first
+{
+	static void Main(string[] args)
+	{
+		Console.WriteLine("Enter your number(ji maja aave e): ");
+		double number = Convert.ToInt32(Console.ReadLine());
+
+		try{
+            		if(number%2!=0)
+			throw new Exception("Entered number is not Even!");
+			Console.WriteLine("Entered number is Even!");
+        	   }
+		catch (Exception e){
+			Console.WriteLine(e.Message);
+                }
+            
+	}
+}
