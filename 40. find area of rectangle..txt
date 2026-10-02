@@ -1,0 +1,20 @@
+// 40. find area of rectangle. 
+
+
+using System;
+
+class first
+{	
+	static void Main(string[] args)
+	{
+		 Console.Write("Enter Length: ");
+        double l = Convert.ToInt32(Console.ReadLine());
+
+        Console.Write("Enter Width: ");
+        double w = Convert.ToInt32(Console.ReadLine());
+
+        double area = l * w;
+
+	Console.WriteLine("area is: "+area);
+	}
+}
