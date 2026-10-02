@@ -1,0 +1,57 @@
+// 39. Implement multilevel inheritance to accept and display data for one student using C#.
+
+
+using System;
+	
+class one
+{
+	public string name;
+	public void GetName()
+	{
+		Console.WriteLine("Enter your name: ");
+		name = Console.ReadLine();
+	}
+}
+
+class two : one
+{
+	public int rollno;
+	public void GetRoll()
+	{
+		Console.WriteLine("Enter your roll no.: ");
+		rollno = Convert.ToInt32(Console.ReadLine());
+		
+	}
+}
+
+
+class thr : two
+{
+	public float marks;
+	public void GetMarks()
+	{
+		Console.WriteLine("Enter your marks: ");
+		marks = Convert.ToSingle(Console.ReadLine());
+	
+	}
+
+	public void display()
+	{
+		Console.WriteLine("name is: "+name);
+		Console.WriteLine("rollNo is: "+rollno);
+		Console.WriteLine("marks is: "+marks);
+	}
+}
+
+class last
+{
+	static void Main(string[] args)
+	{
+		thr s = new thr();
+		s.GetName();
+		s.GetRoll();
+		s.GetMarks();
+		s.display();
+
+	}
+}
