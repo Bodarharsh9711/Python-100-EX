@@ -1,0 +1,32 @@
+// 42. Write a program to demonstrate the use of abstract class and abstract methods in C#.
+
+using System;
+
+abstract class first
+{
+	public abstract void show();
+}
+
+class second : first
+{
+	public override void show()
+	{
+		Console.WriteLine("This is Abstract Method so Enter first number!");
+        	double num1 = Convert.ToInt32(Console.ReadLine());
+        
+		Console.WriteLine("This is Abstract Method! so add second number!");
+	        double num2 = Convert.ToInt32(Console.ReadLine());
+
+        	double answer = num1*num2;
+	        Console.WriteLine("the answer is: "+answer);
+	}
+}
+
+class third
+{
+	static void Main(string[] args)
+	{
+		second s = new second();
+		s.show();
+	}
+}
