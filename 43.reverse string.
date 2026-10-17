@@ -1,4 +1,4 @@
-# 19.reverse string
+# 43.reverse string
 
 Str = "thing"
 print(Str[::-1])
