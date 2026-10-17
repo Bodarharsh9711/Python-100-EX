@@ -1,0 +1,9 @@
+# 20. Pelindrom number
+
+num = input("Enter your favorite number: ")
+
+	
+if num == num[::-1]:
+	print(f"your Enter number({num}) is Pelindrom!")
+else:
+	print(f"your Enter number({num}) is not Pelindrom!")

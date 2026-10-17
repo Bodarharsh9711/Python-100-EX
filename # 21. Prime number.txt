@@ -1,0 +1,7 @@
+# 21. Prime number(direct)
+
+from sympy import isprime
+
+print(isprimt(10))
+print(isprime(5))
+print(isprime(7919))
