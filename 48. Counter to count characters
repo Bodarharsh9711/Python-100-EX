@@ -5,6 +5,5 @@ from collections import Counter
 def cc(text):
 	return dict(Counter(text))
 
-
 message = "hello"
 print(cc(message))  # cc = count_character 
