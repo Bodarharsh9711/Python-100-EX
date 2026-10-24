@@ -1,4 +1,4 @@
-# 45. Prime number(direct)
+45. Prime number(direct)
 
 from sympy import isprime
 
