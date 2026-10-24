@@ -1,4 +1,4 @@
-# 20. Pelindrom number
+# 44. Pelindrom number
 
 num = input("Enter your favorite number: ")
 
