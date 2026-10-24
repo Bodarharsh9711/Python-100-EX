@@ -1,0 +1,12 @@
+# 47. second largest number in "List".
+
+def find_sec_lar(num):
+	uni_num = set(num)
+
+	if len(uni_num) < 2:
+		return "No lar exists"
+	uni_num.remove(max(uni_num))
+	return max(uni_num)
+
+my_list = [12, 23, 34, 80, 3]
+print(find_sec_lar(my_list))
