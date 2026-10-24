@@ -1,4 +1,4 @@
-// 21. Factorial of number
+// 46. Factorial of number
 
 num = int(input("Enter your number: "))
 
