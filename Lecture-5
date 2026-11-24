@@ -18,4 +18,4 @@ print(first + " " + second)
 print("Ha" * 3)
 print("-" * 20)
 
-print("Age: " + 25)   # Error contains
+print("Age: " + 25)   # Error contains which is crazy
