@@ -1,0 +1,21 @@
+# String Creation and some works
+
+a = 'Hello'
+b = "World"
+c = """This string
+has two lines."""
+print(a)
+print(b)
+print(c)
+
+text = "Python Rocks"
+print(len(text))
+
+word = "PYTHON"
+print(word[0])
+print(word[3])
+print(word[-1])
+print(word[-3])
+
+print("It's a nice day")
+print('He said "Hello"')
