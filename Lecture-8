@@ -1,0 +1,7 @@
+# Methods in String
+
+name = "asha"
+print(name.upper())
+print(name)               # the original is unchanged
+name = name.upper()       # keep the new value
+print(name)
