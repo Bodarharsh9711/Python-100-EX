@@ -1,0 +1,6 @@
+# Comparing String
+
+print("apple" == "apple")
+print("apple" == "Apple")
+print("apple" < "bananananana")
+print(ord("A"), ord("a"))
