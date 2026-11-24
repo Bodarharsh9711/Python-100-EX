@@ -1,0 +1,21 @@
+# Going Through Each Character!
+
+for letter in "CODE":
+     print(letter)
+
+# Checking text inside Text!
+
+sentence = "I love Python"
+print("love" in sentence)
+print("Java" in sentence)
+print("Java" not in sentence)
+
+# Joining and Repeating
+
+first = "Good"
+second = "Morning"
+print(first + " " + second)
+print("Ha" * 3)
+print("-" * 20)
+
+print("Age: " + 25)   # Error contains
