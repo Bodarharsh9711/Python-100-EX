@@ -1,0 +1,5 @@
+# Escape Character simple and short
+
+print("Hello\nWorld")
+print("Name:\tAsha")
+print("A \\ backslash")
