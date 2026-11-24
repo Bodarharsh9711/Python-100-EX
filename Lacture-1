@@ -1,0 +1,6 @@
+# how Python is simple?
+
+email = "student@example.com"
+at = email.index("@")
+print("User :", email[:at])
+print("Domain:", email[at + 1:])
