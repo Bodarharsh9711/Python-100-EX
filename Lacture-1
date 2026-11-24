@@ -4,3 +4,13 @@ email = "student@example.com"
 at = email.index("@")
 print("User :", email[:at])
 print("Domain:", email[at + 1:])
+
+word = "PYTHON"
+new_word = "J" + word[1:]
+print(new_word)
+print(word)
+
+word = "PYTHON"
+word[0] = "J"
+
+print(word[::])
