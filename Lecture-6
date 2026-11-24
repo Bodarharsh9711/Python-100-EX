@@ -1,0 +1,9 @@
+# World of Python
+
+word = "PYTHON"
+print(word[1:4])    # index 1, 2, 3
+print(word[:3])     # from the start to index 2
+print(word[3:])     # from index 3 to the end
+print(word[:])      # everything
+print(word[::2])    # every second character
+print(word[::-1])   # reversed
