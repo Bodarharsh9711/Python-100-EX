@@ -1,0 +1,8 @@
+# Printing Methods where all are same but some difference!
+
+
+poem = """Roses are red,
+Violets are blue,
+Python is fun,
+And so are you."""
+print(poem)
